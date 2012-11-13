@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30C22BA164F85DB00499467 /* AOCOutputSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C30C22B9164F85DB00499467 /* AOCOutputSwitcher.m */; };
+		C30C22BD164F868900499467 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30C22BC164F868900499467 /* CoreAudio.framework */; };
+		C30C22BF164F869000499467 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30C22BE164F869000499467 /* CoreServices.framework */; };
+		C314A4E3164F7D620036F83F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C314A4E2164F7D610036F83F /* Cocoa.framework */; };
+		C314A4ED164F7D620036F83F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C314A4EB164F7D620036F83F /* InfoPlist.strings */; };
+		C314A4EF164F7D620036F83F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C314A4EE164F7D620036F83F /* main.m */; };
+		C314A4F3164F7D620036F83F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C314A4F1164F7D620036F83F /* Credits.rtf */; };
+		C314A4F6164F7D620036F83F /* AOCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C314A4F5164F7D620036F83F /* AOCAppDelegate.m */; };
+		C314A4F9164F7D630036F83F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C314A4F7164F7D630036F83F /* MainMenu.xib */; };
+		C314A501164F7D640036F83F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C314A500164F7D640036F83F /* SenTestingKit.framework */; };
+		C314A502164F7D640036F83F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C314A4E2164F7D610036F83F /* Cocoa.framework */; };
+		C314A50A164F7D640036F83F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C314A508164F7D640036F83F /* InfoPlist.strings */; };
+		C314A50D164F7D640036F83F /* AudioOutputChangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C314A50C164F7D640036F83F /* AudioOutputChangerTests.m */; };
+		C34902BC164F846F008AEF5F /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C34902BA164F846F008AEF5F /* menu_icon.png */; };
+		C3DECE02165052F300F6AB33 /* AOCMenulet.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DECE01165052F300F6AB33 /* AOCMenulet.m */; };
+		C3DECE0816506F0E00F6AB33 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE0716506F0E00F6AB33 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C314A503164F7D640036F83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C314A4D5164F7D610036F83F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C314A4DD164F7D610036F83F;
+			remoteInfo = AudioOutputChanger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C30C22B8164F85DB00499467 /* AOCOutputSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOCOutputSwitcher.h; sourceTree = "<group>"; };
+		C30C22B9164F85DB00499467 /* AOCOutputSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOCOutputSwitcher.m; sourceTree = "<group>"; };
+		C30C22BC164F868900499467 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C30C22BE164F869000499467 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		C314A4DE164F7D610036F83F /* AudioOutputChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioOutputChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C314A4E2164F7D610036F83F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C314A4E5164F7D620036F83F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C314A4E6164F7D620036F83F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C314A4E7164F7D620036F83F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C314A4EA164F7D620036F83F /* AudioOutputChanger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioOutputChanger-Info.plist"; sourceTree = "<group>"; };
+		C314A4EC164F7D620036F83F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C314A4EE164F7D620036F83F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C314A4F0164F7D620036F83F /* AudioOutputChanger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioOutputChanger-Prefix.pch"; sourceTree = "<group>"; };
+		C314A4F2164F7D620036F83F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C314A4F4164F7D620036F83F /* AOCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOCAppDelegate.h; sourceTree = "<group>"; };
+		C314A4F5164F7D620036F83F /* AOCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOCAppDelegate.m; sourceTree = "<group>"; };
+		C314A4F8164F7D630036F83F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C314A4FF164F7D640036F83F /* AudioOutputChangerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioOutputChangerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C314A500164F7D640036F83F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C314A507164F7D640036F83F /* AudioOutputChangerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioOutputChangerTests-Info.plist"; sourceTree = "<group>"; };
+		C314A509164F7D640036F83F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C314A50B164F7D640036F83F /* AudioOutputChangerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioOutputChangerTests.h; sourceTree = "<group>"; };
+		C314A50C164F7D640036F83F /* AudioOutputChangerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioOutputChangerTests.m; sourceTree = "<group>"; };
+		C34902BA164F846F008AEF5F /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
+		C3DECE00165052F300F6AB33 /* AOCMenulet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOCMenulet.h; sourceTree = "<group>"; };
+		C3DECE01165052F300F6AB33 /* AOCMenulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOCMenulet.m; sourceTree = "<group>"; };
+		C3DECE0716506F0E00F6AB33 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../../../icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C314A4DB164F7D610036F83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30C22BF164F869000499467 /* CoreServices.framework in Frameworks */,
+				C30C22BD164F868900499467 /* CoreAudio.framework in Frameworks */,
+				C314A4E3164F7D620036F83F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C314A4FB164F7D640036F83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314A501164F7D640036F83F /* SenTestingKit.framework in Frameworks */,
+				C314A502164F7D640036F83F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C314A4D3164F7D610036F83F = {
+			isa = PBXGroup;
+			children = (
+				C314A4E8164F7D620036F83F /* AudioOutputChanger */,
+				C314A505164F7D640036F83F /* AudioOutputChangerTests */,
+				C314A4E1164F7D610036F83F /* Frameworks */,
+				C314A4DF164F7D610036F83F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C314A4DF164F7D610036F83F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C314A4DE164F7D610036F83F /* AudioOutputChanger.app */,
+				C314A4FF164F7D640036F83F /* AudioOutputChangerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C314A4E1164F7D610036F83F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C314A4E2164F7D610036F83F /* Cocoa.framework */,
+				C30C22BC164F868900499467 /* CoreAudio.framework */,
+				C30C22BE164F869000499467 /* CoreServices.framework */,
+				C314A500164F7D640036F83F /* SenTestingKit.framework */,
+				C314A4E4164F7D620036F83F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C314A4E4164F7D620036F83F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C314A4E5164F7D620036F83F /* AppKit.framework */,
+				C314A4E6164F7D620036F83F /* CoreData.framework */,
+				C314A4E7164F7D620036F83F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C314A4E8164F7D620036F83F /* AudioOutputChanger */ = {
+			isa = PBXGroup;
+			children = (
+				C314A4F4164F7D620036F83F /* AOCAppDelegate.h */,
+				C314A4F5164F7D620036F83F /* AOCAppDelegate.m */,
+				C3DECE00165052F300F6AB33 /* AOCMenulet.h */,
+				C3DECE01165052F300F6AB33 /* AOCMenulet.m */,
+				C30C22B8164F85DB00499467 /* AOCOutputSwitcher.h */,
+				C30C22B9164F85DB00499467 /* AOCOutputSwitcher.m */,
+				C314A4F7164F7D630036F83F /* MainMenu.xib */,
+				C34902B8164F846F008AEF5F /* Resources */,
+				C314A4E9164F7D620036F83F /* Supporting Files */,
+			);
+			path = AudioOutputChanger;
+			sourceTree = "<group>";
+		};
+		C314A4E9164F7D620036F83F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C314A4EA164F7D620036F83F /* AudioOutputChanger-Info.plist */,
+				C314A4EB164F7D620036F83F /* InfoPlist.strings */,
+				C314A4EE164F7D620036F83F /* main.m */,
+				C314A4F0164F7D620036F83F /* AudioOutputChanger-Prefix.pch */,
+				C314A4F1164F7D620036F83F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C314A505164F7D640036F83F /* AudioOutputChangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C314A50B164F7D640036F83F /* AudioOutputChangerTests.h */,
+				C314A50C164F7D640036F83F /* AudioOutputChangerTests.m */,
+				C314A506164F7D640036F83F /* Supporting Files */,
+			);
+			path = AudioOutputChangerTests;
+			sourceTree = "<group>";
+		};
+		C314A506164F7D640036F83F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C314A507164F7D640036F83F /* AudioOutputChangerTests-Info.plist */,
+				C314A508164F7D640036F83F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C34902B8164F846F008AEF5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C34902B9164F846F008AEF5F /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C34902B9164F846F008AEF5F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C3DECE0716506F0E00F6AB33 /* icon.icns */,
+				C34902BA164F846F008AEF5F /* menu_icon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C314A4DD164F7D610036F83F /* AudioOutputChanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C314A510164F7D640036F83F /* Build configuration list for PBXNativeTarget "AudioOutputChanger" */;
+			buildPhases = (
+				C314A4DA164F7D610036F83F /* Sources */,
+				C314A4DB164F7D610036F83F /* Frameworks */,
+				C314A4DC164F7D610036F83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioOutputChanger;
+			productName = AudioOutputChanger;
+			productReference = C314A4DE164F7D610036F83F /* AudioOutputChanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C314A4FE164F7D640036F83F /* AudioOutputChangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C314A513164F7D640036F83F /* Build configuration list for PBXNativeTarget "AudioOutputChangerTests" */;
+			buildPhases = (
+				C314A4FA164F7D640036F83F /* Sources */,
+				C314A4FB164F7D640036F83F /* Frameworks */,
+				C314A4FC164F7D640036F83F /* Resources */,
+				C314A4FD164F7D640036F83F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C314A504164F7D640036F83F /* PBXTargetDependency */,
+			);
+			name = AudioOutputChangerTests;
+			productName = AudioOutputChangerTests;
+			productReference = C314A4FF164F7D640036F83F /* AudioOutputChangerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C314A4D5164F7D610036F83F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AOC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Dennis Schmidt";
+			};
+			buildConfigurationList = C314A4D8164F7D610036F83F /* Build configuration list for PBXProject "AudioOutputChanger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C314A4D3164F7D610036F83F;
+			productRefGroup = C314A4DF164F7D610036F83F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C314A4DD164F7D610036F83F /* AudioOutputChanger */,
+				C314A4FE164F7D640036F83F /* AudioOutputChangerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C314A4DC164F7D610036F83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314A4ED164F7D620036F83F /* InfoPlist.strings in Resources */,
+				C314A4F3164F7D620036F83F /* Credits.rtf in Resources */,
+				C314A4F9164F7D630036F83F /* MainMenu.xib in Resources */,
+				C34902BC164F846F008AEF5F /* menu_icon.png in Resources */,
+				C3DECE0816506F0E00F6AB33 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C314A4FC164F7D640036F83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314A50A164F7D640036F83F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C314A4FD164F7D640036F83F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C314A4DA164F7D610036F83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314A4EF164F7D620036F83F /* main.m in Sources */,
+				C314A4F6164F7D620036F83F /* AOCAppDelegate.m in Sources */,
+				C30C22BA164F85DB00499467 /* AOCOutputSwitcher.m in Sources */,
+				C3DECE02165052F300F6AB33 /* AOCMenulet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C314A4FA164F7D640036F83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314A50D164F7D640036F83F /* AudioOutputChangerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C314A504164F7D640036F83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C314A4DD164F7D610036F83F /* AudioOutputChanger */;
+			targetProxy = C314A503164F7D640036F83F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C314A4EB164F7D620036F83F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C314A4EC164F7D620036F83F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C314A4F1164F7D620036F83F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C314A4F2164F7D620036F83F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C314A4F7164F7D630036F83F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C314A4F8164F7D630036F83F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C314A508164F7D640036F83F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C314A509164F7D640036F83F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C314A50E164F7D640036F83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C314A50F164F7D640036F83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C314A511164F7D640036F83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioOutputChanger/AudioOutputChanger-Prefix.pch";
+				INFOPLIST_FILE = "AudioOutputChanger/AudioOutputChanger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C314A512164F7D640036F83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioOutputChanger/AudioOutputChanger-Prefix.pch";
+				INFOPLIST_FILE = "AudioOutputChanger/AudioOutputChanger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C314A514164F7D640036F83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioOutputChanger.app/Contents/MacOS/AudioOutputChanger";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioOutputChanger/AudioOutputChanger-Prefix.pch";
+				INFOPLIST_FILE = "AudioOutputChangerTests/AudioOutputChangerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C314A515164F7D640036F83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioOutputChanger.app/Contents/MacOS/AudioOutputChanger";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioOutputChanger/AudioOutputChanger-Prefix.pch";
+				INFOPLIST_FILE = "AudioOutputChangerTests/AudioOutputChangerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C314A4D8164F7D610036F83F /* Build configuration list for PBXProject "AudioOutputChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C314A50E164F7D640036F83F /* Debug */,
+				C314A50F164F7D640036F83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C314A510164F7D640036F83F /* Build configuration list for PBXNativeTarget "AudioOutputChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C314A511164F7D640036F83F /* Debug */,
+				C314A512164F7D640036F83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C314A513164F7D640036F83F /* Build configuration list for PBXNativeTarget "AudioOutputChangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C314A514164F7D640036F83F /* Debug */,
+				C314A515164F7D640036F83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C314A4D5164F7D610036F83F /* Project object */;
+}
